@@ -17,12 +17,12 @@ public:
     {
         // destructor
     }
-    vector<string> database;
+    vector<string> list;
     string name;
 
     
 
-    void write();
+    void write(vector<string> list);
     void read();
     void add_item();
     void delete_item();
