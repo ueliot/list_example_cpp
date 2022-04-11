@@ -1,5 +1,6 @@
 
 #include "include/list.h"
+#include "include/database.h"
 
 
 int main(int arr_count, char *args[]){
@@ -12,6 +13,9 @@ int main(int arr_count, char *args[]){
   }else{
     cout << "username not supplied...exiting program"<< endl;
   }
+  Database data;
+  data.write();
+  data.read();
 
   return 0;
 }
